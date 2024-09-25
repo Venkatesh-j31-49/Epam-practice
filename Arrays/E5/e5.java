@@ -10,7 +10,8 @@ public class e5 {
         {
             array[i]=sc.nextInt();
         }
-       
+       cycleSwap(array);
+       //cycleswaps(array,shift);
 
     }
     static void cycleSwap(int[] array) 
@@ -27,7 +28,7 @@ public class e5 {
   
       }
   
-      static void cycleSwap(int[] array, int shift) 
+      public static void cycleSwaps(int[] array, int shift) 
       {
           if(array.length>1 && shift>0)
           {
